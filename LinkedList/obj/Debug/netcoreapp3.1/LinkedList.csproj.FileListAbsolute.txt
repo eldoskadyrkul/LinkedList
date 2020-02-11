@@ -1,0 +1,11 @@
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.deps.json
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.runtimeconfig.json
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.runtimeconfig.dev.json
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.dll
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/bin/Debug/netcoreapp3.1/LinkedList.pdb
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.csprojAssemblyReference.cache
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.AssemblyInfoInputs.cache
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.AssemblyInfo.cs
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.dll
+/Users/kadyrkuleldos/RiderProjects/LinkedList/LinkedList/obj/Debug/netcoreapp3.1/LinkedList.pdb
