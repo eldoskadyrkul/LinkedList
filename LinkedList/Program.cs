@@ -4,67 +4,39 @@ namespace LinkedList
 {
     class Program
     {
+        static LinkedList list = new LinkedList();
         static void Main(string[] args)
         {
-           
-
-            LinkedList list = new LinkedList();
-            var i = list.Count;
-            while (i < 6) {
-                Console.WriteLine("Welcome, guest");
-                Console.WriteLine("1. Add an item to the list at specified index");
-                Console.WriteLine("2. Add an item to the END of the list");
-                Console.WriteLine("3. Remove the item in the list at the specified index");
-                Console.WriteLine("4. Clear the list");
-                Console.WriteLine("5. Get the index of the item in the list");
-                Console.WriteLine("6. Contains value in object");
-                Console.WriteLine("7.Gets items at the specified index");
-            
-                var a = Console.ReadLine();
-                switch (a)
-                {
-                    case "1" :
-                        addList(list);
-                        break;
-                    case "2" :
-                        addListByIndex(list);
-                        break;
-                    case "3" :
-                        var t = Console.ReadLine();
-                        list.Delete(int.Parse(t));
-                        Console.WriteLine("Size of list: " + list.Count);
-                        break;
-                    case "4":
-                        list.Clear();
-                        Console.WriteLine("List was cleared!");
-                        break;
-                    case "5":
-                        Console.WriteLine("You enter an index for get item");
-                        var v = Console.ReadLine();
-                        list.IndexOf(v);
-                        Console.WriteLine("Result: " + list.IndexOf(v));
-                        break;
-                    case "6":
-                        Console.WriteLine("Please, enter value in list:");
-                        var u = Console.ReadLine();
-                        bool cong = list.Contains(u);
-                        Console.WriteLine("Result: " + cong);
-                        break;
-                    case "7":
-                        Console.WriteLine("Enter index and get value:");
-                        var g = Console.ReadLine();
-                        list.Get(int.Parse(g));
-                        Console.WriteLine("Result: " + list.Get(int.Parse(g)));
-                        break;
-                    default:
-                        Console.WriteLine("You enter an unknown number");
-                        break;
-                }
-            }
-            
+            Console.WriteLine("Welcome, guest");
+            Console.WriteLine("1. Add an item to the list at specified index");
+            addList(list);
+            Console.WriteLine("2. Add an item to the END of the list");
+            addListByIndex(list);
+            Console.WriteLine("3. Remove the item in the list at the specified index");
+            var t = Console.ReadLine();
+            list.Delete(int.Parse(t));
+            Console.WriteLine("Size of list: " + list.Count);
+            Console.WriteLine("4. Get the index of the item in the list");
+            Console.WriteLine("You enter an index for get item");
+            var v = Console.ReadLine();
+            list.IndexOf(v);
+            Console.WriteLine("Result: " + list.IndexOf(v));
+            Console.WriteLine("5. Contains value in object");
+            Console.WriteLine("Please, enter value in list:");
+            var u = Console.ReadLine();
+            bool cong = list.Contains(u);
+            Console.WriteLine("Result: " + cong);
+            Console.WriteLine("6.Gets items at the specified index");
+            Console.WriteLine("Enter index and get value:");
+            var g = Console.ReadLine();
+            list.Get(int.Parse(g));
+            Console.WriteLine("Result: " + list.Get(int.Parse(g)));
+            Console.WriteLine("7. Clear the list");
+            list.Clear();
+            Console.WriteLine("List was cleared!");
         }
         
-        static LinkedList addList(LinkedList list)
+        public static LinkedList addList(LinkedList list)
         {
             Console.WriteLine("Добавьте 4 элементa списка");
             list.Add(Console.ReadLine());
